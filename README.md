@@ -2,14 +2,12 @@
 
 I build backend systems, and the part I actually enjoy is the tradeoff hunting. Cache here or index there. Consistency now or throughput later. Do I need the queue at all. Most of what I know about system design I learned by building the thing, watching it fall over, and finding out why, which turns out to be a much better teacher than any diagram.
 
-Right now that means writing services in Go and Java, measuring them honestly, and refusing to publish the number I was hoping for instead of the number I got.
-
-When I'm not doing that I'm on LeetCode, or on MonkeyType convincing myself that typing fast is a personality trait. It is.
+Most of that work lives in Go and Java. A service that diagnoses production outages by correlating traces, metrics, and deploy events into a small evidence packet before a model ever sees it, and a stateless API-key service that resolves rate limiting, quotas, and metering in a single atomic Redis round trip. I benchmark before I optimize, and I publish what the run produced rather than what I wanted it to, including the fault class my own engine is worst at.
 
 <a href="https://sashreek-addanki.vercel.app/"><img src="https://img.shields.io/badge/portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
 <a href="https://www.linkedin.com/in/sashreek-addanki-121471257/"><img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://leetcode.com/u/LEETCODE_USERNAME/"><img src="https://img.shields.io/badge/leetcode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
-<a href="https://monkeytype.com/profile/MONKEYTYPE_USERNAME"><img src="https://img.shields.io/badge/monkeytype-E2B714?style=for-the-badge&logo=monkeytype&logoColor=black" alt="MonkeyType"></a>
+<a href="https://leetcode.com/u/Sashreek_18/"><img src="https://img.shields.io/badge/leetcode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
+<a href="https://monkeytype.com/profile/Shrek6791"><img src="https://img.shields.io/badge/monkeytype-E2B714?style=for-the-badge&logo=monkeytype&logoColor=black" alt="MonkeyType"></a>
 <a href="mailto:sashreek.addanki@gmail.com"><img src="https://img.shields.io/badge/email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 
 ### things I've built
